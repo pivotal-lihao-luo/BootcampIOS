@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98216DA18E5D43F2AB92D8DE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0048FEDDDD44FB85240565 /* libPods.a */; };
+		B4D29C4CB9D24584AADF3BD3 /* libPods-BootcampTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 901B1498027A434FB15ADC17 /* libPods-BootcampTests.a */; };
+		BDDAEFE019C32EFE00ED190D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDAEFDF19C32EFE00ED190D /* SenTestingKit.framework */; };
+		BDDAEFE119C32EFE00ED190D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDCF3E219BA5A1600C8B5A4 /* CoreGraphics.framework */; };
+		BDDAEFE219C32EFE00ED190D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDCF3E419BA5A1600C8B5A4 /* UIKit.framework */; };
+		BDDAEFE319C32EFE00ED190D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDCF3E019BA5A1600C8B5A4 /* Foundation.framework */; };
+		BDDAEFE919C32EFE00ED190D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDDAEFE719C32EFE00ED190D /* InfoPlist.strings */; };
+		BDDAEFEB19C32EFE00ED190D /* ExampleSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = BDDAEFEA19C32EFE00ED190D /* ExampleSpec.mm */; };
+		BDDAEFEE19C32EFF00ED190D /* Cedar-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDAEFED19C32EFF00ED190D /* Cedar-iOS.framework */; };
 		BDDCF3E119BA5A1600C8B5A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDCF3E019BA5A1600C8B5A4 /* Foundation.framework */; };
 		BDDCF3E319BA5A1600C8B5A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDCF3E219BA5A1600C8B5A4 /* CoreGraphics.framework */; };
 		BDDCF3E519BA5A1600C8B5A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDCF3E419BA5A1600C8B5A4 /* UIKit.framework */; };
@@ -19,6 +28,12 @@
 		BDDCF3FC19BA5A1600C8B5A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDCF3E419BA5A1600C8B5A4 /* UIKit.framework */; };
 		BDDCF40419BA5A1600C8B5A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDDCF40219BA5A1600C8B5A4 /* InfoPlist.strings */; };
 		BDDCF40619BA5A1600C8B5A4 /* BootcampTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDCF40519BA5A1600C8B5A4 /* BootcampTests.m */; };
+		BDDCF41019BB563D00C8B5A4 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDCF40F19BB563D00C8B5A4 /* Storyboard.storyboard */; };
+		BDDCF41319BC0F0F00C8B5A4 /* BCListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDCF41219BC0F0F00C8B5A4 /* BCListTableViewController.m */; };
+		BDDCF41619BC3A2100C8B5A4 /* BCSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDCF41519BC3A2100C8B5A4 /* BCSearchController.m */; };
+		BDDCF41919C0F25500C8B5A4 /* BCSongData.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDCF41819C0F25500C8B5A4 /* BCSongData.m */; };
+		BDDCF41B19C1E32700C8B5A4 /* TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDDCF41A19C1E32700C8B5A4 /* TableCell.xib */; };
+		BDDCF41E19C1E5DC00C8B5A4 /* BCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDCF41D19C1E5DC00C8B5A4 /* BCTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +47,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DDE8F9CAF6E47408FFEBF46 /* Pods-BootcampTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BootcampTests.xcconfig"; path = "Pods/Pods-BootcampTests.xcconfig"; sourceTree = "<group>"; };
+		901B1498027A434FB15ADC17 /* libPods-BootcampTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BootcampTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE57BF105E345E2AD328D31 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		BDDAEFDE19C32EFE00ED190D /* Spec.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Spec.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDAEFDF19C32EFE00ED190D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BDDAEFE619C32EFE00ED190D /* Spec-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spec-Info.plist"; sourceTree = "<group>"; };
+		BDDAEFE819C32EFE00ED190D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDDAEFEA19C32EFE00ED190D /* ExampleSpec.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ExampleSpec.mm; sourceTree = "<group>"; };
+		BDDAEFEC19C32EFE00ED190D /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		BDDAEFED19C32EFF00ED190D /* Cedar-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cedar-iOS.framework"; path = "Frameworks/Cedar-iOS.framework"; sourceTree = "<group>"; };
+		BDDAEFEF19C32F0000ED190D /* Spec-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spec-Prefix.pch"; sourceTree = "<group>"; };
 		BDDCF3DD19BA5A1600C8B5A4 /* Bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDCF3E019BA5A1600C8B5A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BDDCF3E219BA5A1600C8B5A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,9 +74,32 @@
 		BDDCF40119BA5A1600C8B5A4 /* BootcampTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BootcampTests-Info.plist"; sourceTree = "<group>"; };
 		BDDCF40319BA5A1600C8B5A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BDDCF40519BA5A1600C8B5A4 /* BootcampTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BootcampTests.m; sourceTree = "<group>"; };
+		BDDCF40F19BB563D00C8B5A4 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		BDDCF41119BC0F0F00C8B5A4 /* BCListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCListTableViewController.h; sourceTree = "<group>"; };
+		BDDCF41219BC0F0F00C8B5A4 /* BCListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCListTableViewController.m; sourceTree = "<group>"; };
+		BDDCF41419BC3A2100C8B5A4 /* BCSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCSearchController.h; sourceTree = "<group>"; };
+		BDDCF41519BC3A2100C8B5A4 /* BCSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCSearchController.m; sourceTree = "<group>"; };
+		BDDCF41719C0F25400C8B5A4 /* BCSongData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCSongData.h; sourceTree = "<group>"; };
+		BDDCF41819C0F25500C8B5A4 /* BCSongData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCSongData.m; sourceTree = "<group>"; };
+		BDDCF41A19C1E32700C8B5A4 /* TableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableCell.xib; sourceTree = "<group>"; };
+		BDDCF41C19C1E5DC00C8B5A4 /* BCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCTableViewCell.h; sourceTree = "<group>"; };
+		BDDCF41D19C1E5DC00C8B5A4 /* BCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCTableViewCell.m; sourceTree = "<group>"; };
+		EF0048FEDDDD44FB85240565 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BDDAEFDA19C32EFE00ED190D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDAEFE119C32EFE00ED190D /* CoreGraphics.framework in Frameworks */,
+				BDDAEFE219C32EFE00ED190D /* UIKit.framework in Frameworks */,
+				BDDAEFEE19C32EFF00ED190D /* Cedar-iOS.framework in Frameworks */,
+				BDDAEFE019C32EFE00ED190D /* SenTestingKit.framework in Frameworks */,
+				BDDAEFE319C32EFE00ED190D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BDDCF3DA19BA5A1600C8B5A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,6 +107,7 @@
 				BDDCF3E319BA5A1600C8B5A4 /* CoreGraphics.framework in Frameworks */,
 				BDDCF3E519BA5A1600C8B5A4 /* UIKit.framework in Frameworks */,
 				BDDCF3E119BA5A1600C8B5A4 /* Foundation.framework in Frameworks */,
+				98216DA18E5D43F2AB92D8DE /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +118,54 @@
 				BDDCF3FA19BA5A1600C8B5A4 /* XCTest.framework in Frameworks */,
 				BDDCF3FC19BA5A1600C8B5A4 /* UIKit.framework in Frameworks */,
 				BDDCF3FB19BA5A1600C8B5A4 /* Foundation.framework in Frameworks */,
+				B4D29C4CB9D24584AADF3BD3 /* libPods-BootcampTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BDDAEFE419C32EFE00ED190D /* Spec */ = {
+			isa = PBXGroup;
+			children = (
+				BDDAEFEA19C32EFE00ED190D /* ExampleSpec.mm */,
+				BDDAEFEC19C32EFE00ED190D /* Rakefile */,
+				BDDAEFED19C32EFF00ED190D /* Cedar-iOS.framework */,
+				BDDAEFE519C32EFE00ED190D /* Supporting Files */,
+			);
+			path = Spec;
+			sourceTree = "<group>";
+		};
+		BDDAEFE519C32EFE00ED190D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDDAEFE619C32EFE00ED190D /* Spec-Info.plist */,
+				BDDAEFE719C32EFE00ED190D /* InfoPlist.strings */,
+				BDDAEFEF19C32F0000ED190D /* Spec-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		BDDCF3D419BA5A1600C8B5A4 = {
 			isa = PBXGroup;
 			children = (
+				BDDCF41A19C1E32700C8B5A4 /* TableCell.xib */,
+				BDDCF41C19C1E5DC00C8B5A4 /* BCTableViewCell.h */,
+				BDDCF41D19C1E5DC00C8B5A4 /* BCTableViewCell.m */,
+				BDDCF40F19BB563D00C8B5A4 /* Storyboard.storyboard */,
+				BDDCF41119BC0F0F00C8B5A4 /* BCListTableViewController.h */,
+				BDDCF41419BC3A2100C8B5A4 /* BCSearchController.h */,
+				BDDCF41519BC3A2100C8B5A4 /* BCSearchController.m */,
+				BDDCF41219BC0F0F00C8B5A4 /* BCListTableViewController.m */,
+				BDDCF41719C0F25400C8B5A4 /* BCSongData.h */,
+				BDDCF41819C0F25500C8B5A4 /* BCSongData.m */,
 				BDDCF3E619BA5A1600C8B5A4 /* Bootcamp */,
 				BDDCF3FF19BA5A1600C8B5A4 /* BootcampTests */,
+				BDDAEFE419C32EFE00ED190D /* Spec */,
 				BDDCF3DF19BA5A1600C8B5A4 /* Frameworks */,
 				BDDCF3DE19BA5A1600C8B5A4 /* Products */,
+				BAE57BF105E345E2AD328D31 /* Pods.xcconfig */,
+				2DDE8F9CAF6E47408FFEBF46 /* Pods-BootcampTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +174,7 @@
 			children = (
 				BDDCF3DD19BA5A1600C8B5A4 /* Bootcamp.app */,
 				BDDCF3F819BA5A1600C8B5A4 /* BootcampTests.xctest */,
+				BDDAEFDE19C32EFE00ED190D /* Spec.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,6 +186,9 @@
 				BDDCF3E219BA5A1600C8B5A4 /* CoreGraphics.framework */,
 				BDDCF3E419BA5A1600C8B5A4 /* UIKit.framework */,
 				BDDCF3F919BA5A1600C8B5A4 /* XCTest.framework */,
+				EF0048FEDDDD44FB85240565 /* libPods.a */,
+				901B1498027A434FB15ADC17 /* libPods-BootcampTests.a */,
+				BDDAEFDF19C32EFE00ED190D /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -147,13 +236,33 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BDDAEFDD19C32EFE00ED190D /* Spec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDDAEFF219C32F0000ED190D /* Build configuration list for PBXNativeTarget "Spec" */;
+			buildPhases = (
+				BDDAEFD919C32EFE00ED190D /* Sources */,
+				BDDAEFDA19C32EFE00ED190D /* Frameworks */,
+				BDDAEFDB19C32EFE00ED190D /* Resources */,
+				BDDAEFDC19C32EFE00ED190D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spec;
+			productName = Spec;
+			productReference = BDDAEFDE19C32EFE00ED190D /* Spec.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		BDDCF3DC19BA5A1600C8B5A4 /* Bootcamp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDDCF40919BA5A1600C8B5A4 /* Build configuration list for PBXNativeTarget "Bootcamp" */;
 			buildPhases = (
+				4C138FA8223042A6B9B56498 /* Check Pods Manifest.lock */,
 				BDDCF3D919BA5A1600C8B5A4 /* Sources */,
 				BDDCF3DA19BA5A1600C8B5A4 /* Frameworks */,
 				BDDCF3DB19BA5A1600C8B5A4 /* Resources */,
+				2D03104FC41840AC87D5B307 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDDCF40C19BA5A1600C8B5A4 /* Build configuration list for PBXNativeTarget "BootcampTests" */;
 			buildPhases = (
+				2FE2802ED2C2485C99541EC2 /* Check Pods Manifest.lock */,
 				BDDCF3F419BA5A1600C8B5A4 /* Sources */,
 				BDDCF3F519BA5A1600C8B5A4 /* Frameworks */,
 				BDDCF3F619BA5A1600C8B5A4 /* Resources */,
+				6FECBD4F717C42D6BD97ABA4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -211,17 +322,28 @@
 			targets = (
 				BDDCF3DC19BA5A1600C8B5A4 /* Bootcamp */,
 				BDDCF3F719BA5A1600C8B5A4 /* BootcampTests */,
+				BDDAEFDD19C32EFE00ED190D /* Spec */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BDDAEFDB19C32EFE00ED190D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDAEFE919C32EFE00ED190D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BDDCF3DB19BA5A1600C8B5A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BDDCF3EB19BA5A1600C8B5A4 /* InfoPlist.strings in Resources */,
 				BDDCF3F319BA5A1600C8B5A4 /* Images.xcassets in Resources */,
+				BDDCF41B19C1E32700C8B5A4 /* TableCell.xib in Resources */,
+				BDDCF41019BB563D00C8B5A4 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,12 +357,100 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D03104FC41840AC87D5B307 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FE2802ED2C2485C99541EC2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4C138FA8223042A6B9B56498 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6FECBD4F717C42D6BD97ABA4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-BootcampTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDDAEFDC19C32EFE00ED190D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		BDDAEFD919C32EFE00ED190D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDAEFEB19C32EFE00ED190D /* ExampleSpec.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BDDCF3D919BA5A1600C8B5A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDDCF41919C0F25500C8B5A4 /* BCSongData.m in Sources */,
 				BDDCF3ED19BA5A1600C8B5A4 /* main.m in Sources */,
+				BDDCF41319BC0F0F00C8B5A4 /* BCListTableViewController.m in Sources */,
+				BDDCF41619BC3A2100C8B5A4 /* BCSearchController.m in Sources */,
+				BDDCF41E19C1E5DC00C8B5A4 /* BCTableViewCell.m in Sources */,
 				BDDCF3F119BA5A1600C8B5A4 /* BCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +474,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		BDDAEFE719C32EFE00ED190D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDDAEFE819C32EFE00ED190D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		BDDCF3E919BA5A1600C8B5A4 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +501,58 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		BDDAEFF019C32F0000ED190D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bootcamp.app/Bootcamp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/Spec/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spec/Spec-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Spec/Spec-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BDDAEFF119C32F0000ED190D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bootcamp.app/Bootcamp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/Spec/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spec/Spec-Prefix.pch";
+				INFOPLIST_FILE = "Spec/Spec-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		BDDCF40719BA5A1600C8B5A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -357,6 +627,7 @@
 		};
 		BDDCF40A19BA5A1600C8B5A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAE57BF105E345E2AD328D31 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -370,6 +641,7 @@
 		};
 		BDDCF40B19BA5A1600C8B5A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAE57BF105E345E2AD328D31 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -383,6 +655,7 @@
 		};
 		BDDCF40D19BA5A1600C8B5A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DDE8F9CAF6E47408FFEBF46 /* Pods-BootcampTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bootcamp.app/Bootcamp";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -405,6 +678,7 @@
 		};
 		BDDCF40E19BA5A1600C8B5A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DDE8F9CAF6E47408FFEBF46 /* Pods-BootcampTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bootcamp.app/Bootcamp";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -424,6 +698,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BDDAEFF219C32F0000ED190D /* Build configuration list for PBXNativeTarget "Spec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDAEFF019C32F0000ED190D /* Debug */,
+				BDDAEFF119C32F0000ED190D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		BDDCF3D819BA5A1600C8B5A4 /* Build configuration list for PBXProject "Bootcamp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -440,6 +722,7 @@
 				BDDCF40B19BA5A1600C8B5A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDDCF40C19BA5A1600C8B5A4 /* Build configuration list for PBXNativeTarget "BootcampTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +731,7 @@
 				BDDCF40E19BA5A1600C8B5A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

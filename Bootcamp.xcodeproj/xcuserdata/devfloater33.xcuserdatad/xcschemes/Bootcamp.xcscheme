@@ -38,6 +38,16 @@
                ReferencedContainer = "container:Bootcamp.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BDDAEFDD19C32EFE00ED190D"
+               BuildableName = "Spec.octest"
+               BlueprintName = "Spec"
+               ReferencedContainer = "container:Bootcamp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
